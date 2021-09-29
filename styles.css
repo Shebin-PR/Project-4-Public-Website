@@ -8,8 +8,11 @@
     .section-1
     {
         height:45rem;
+        position: relative;
+       
       }
 
+     
     .section-1-para
     {
       font-size: 40px;
@@ -123,7 +126,6 @@
                 }
 
                 .road1{
-
                   border-left: 3px solid #00d2b5;
                   border-bottom: 3px solid #00d2b5;
                   border-bottom-left-radius: 15px;
@@ -557,6 +559,23 @@
                   top: -2.5%;
                 }
                 
-                
+                .fixed-button
+                {
+                  font-size: 25px;
+                  background-color:#00d2b5;
+                  border: 1px solid#00d2b5;
+                  border-radius: 5px;
+                  right: -10px;
+                  position: fixed;
+                  bottom: 70px;
+                  z-index: 1;
+                }
+          
+                .fixed-button a
+                {
+                   color: white;
+                   text-decoration: none;
+                }
+ n          
                 
 
