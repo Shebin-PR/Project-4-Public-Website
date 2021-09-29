@@ -34,3 +34,25 @@ function VideoOne () {
       .setAttribute('src', 'https://www.youtube.com/embed/m_hx0Ebg5Yo?autoplay=1')
   }
   
+  
+
+let top_button = document.getElementById('top_button')
+window.onscroll = function () {
+scrollFunction()
+}
+
+function scrollFunction () {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+top_button.style.display = 'block'
+} else {
+top_button.style.display = 'none'
+}
+}
+top_button.addEventListener('click', backToTop)
+
+function backToTop () {
+document.body.scrollTop = 0
+document.documentElement.scrollTop = 0
+}
+
+
