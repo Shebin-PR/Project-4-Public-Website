@@ -104,7 +104,11 @@
               {
                 color: rgb(219, 211, 211);
               }
-
+               
+              .first-tile-icon
+              {
+                
+              }
 
               .tiles:hover .user-icon 
               {
@@ -207,6 +211,11 @@
                   padding: 9px;
                   color: white;
                   bottom: 0;
+              }
+              .text-secondary
+              {
+                font-weight: 400;
+                font-size: 1.1rem;
               }
                
                 
